@@ -1,0 +1,15 @@
+temperature: 24.71 Celsius
+ph: 2.99
+flow: No flow
+turbidity: 10781.25
+
+temperature: 25.13 Celsius
+ph: 3.05
+flow: Low flow
+turbidity: 10500.00
+
+temperature: 23.89 Celsius
+ph: 3.20
+flow: High flow
+turbidity: 10234.22
+
