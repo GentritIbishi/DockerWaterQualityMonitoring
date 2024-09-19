@@ -18,13 +18,14 @@ USE sensor_data;
 CREATE TABLE IF NOT EXISTS sensor_data.readings (
     id UUID PRIMARY KEY,
     temperature text,
-    pH double,
-    flow text,
+    ph double,
+    flow int,
     turbidity double,
-    alarm_flag BOOLEAN,
     latitude double,
     longitude double,
-    status text,
-    timestamp timestamp
+    address text,
+    timestamp timestamp,
+    prediction int
   );
+
 
