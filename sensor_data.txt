@@ -1,15 +1,34 @@
 temperature: 24.71 Celsius
-ph: 2.99
-flow: No flow
-turbidity: 10781.25
+ph: 7
+flow: 0
+turbidity: 2.1
+latitude: 42.619447
+longitude: 21.234465
 
 temperature: 25.13 Celsius
-ph: 3.05
-flow: Low flow
-turbidity: 10500.00
+ph: 6.8
+flow: 1
+turbidity: 1.7
+latitude: 42.821412
+longitude: 21.308285
 
 temperature: 23.89 Celsius
-ph: 3.20
-flow: High flow
-turbidity: 10234.22
+ph: 7.1
+flow: 2
+turbidity: 4
+latitude: 42.961875
+longitude: 20.570339
 
+temperature: -70 Celsius
+ph: 7.1
+flow: 0
+turbidity: 1.2
+latitude: 42.486777
+longitude: 20.422350
+
+temperature: 20.89 Celsius
+ph: 2.5
+flow: 1
+turbidity: 1.2
+latitude: 42.486777
+longitude: 20.422350
