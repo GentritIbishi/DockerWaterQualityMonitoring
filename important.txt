@@ -1,12 +1,6 @@
-Prej kafka producerit deri te kafka po shkojne datat
-Hin mrena kakfes edhe e kqyr taman a bon 
-
 docker exec -it [container_name_or_id] /bin/sh
 
 kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic your_topic_name --from-beginning
-
-
-
 
 CREATE KEYSPACE IF NOT EXISTS sensor_data WITH replication = {
   'class': 'SimpleStrategy',
@@ -25,7 +19,15 @@ CREATE TABLE IF NOT EXISTS sensor_data.readings (
     longitude double,
     address text,
     timestamp timestamp,
-    prediction int
+    prediction int,
+    time_execution bigint
   );
+
+
+
+
+
+
+
 
 
